@@ -2,66 +2,123 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Yosef</title>
+  <title>The Crew</title>
   <style>
     body {
       margin: 0;
-      height: 100vh;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1e1e2f, #3a3a6a);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #1e1e2f, #3a3a6a);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px 0;
     }
 
-    .container {
+    .wrapper {
       display: flex;
-      align-items: center;
+      flex-direction: column;
       gap: 30px;
     }
 
-    .label {
-      color: #ffffff;
-      font-size: 2.5rem;
-      font-weight: 700;
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px 30px;
+      border-radius: 18px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
     }
 
-    .arrow {
-      font-size: 3rem;
+    .name {
       color: #ffffff;
+      font-size: 2rem;
+      font-weight: 700;
+      min-width: 140px;
     }
 
     .image-box {
-      width: 220px;
-      height: 220px;
-      border-radius: 16px;
-      background: rgba(255, 255, 255, 0.15);
+      width: 180px;
+      height: 180px;
+      border-radius: 14px;
+      border: 2px dashed rgba(255, 255, 255, 0.4);
       display: flex;
       justify-content: center;
       align-items: center;
       color: #ffffff;
-      font-size: 1rem;
       text-align: center;
-      border: 2px dashed rgba(255, 255, 255, 0.4);
+      font-size: 0.9rem;
     }
 
     .image-box img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: 16px;
+      border-radius: 14px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="label">Yosef</div>
-    <div class="arrow">➜</div>
+  <div class="wrapper">
 
-    <!-- Replace "image.jpg" with your image file -->
-    <div class="image-box">
-      <img src="Chico.webp" alt="Yosef image">
+    <div class="card">
+      <div class="name">Jordy</div>
+      <div class="image-box">
+        <img src="jordy.jpg" alt="Jordy">
+      </div>
     </div>
+
+    <div class="card">
+      <div class="name">Yasin</div>
+      <div class="image-box">
+        <img src="yasin.jpg" alt="Yasin">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="name">Aaron</div>
+      <div class="image-box">
+        <img src="aaron.jpg" alt="Aaron">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="name">Haydar</div>
+      <div class="image-box">
+        <img src="haydar.jpg" alt="Haydar">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="name">Ali A</div>
+      <div class="image-box">
+        <img src="alia.jpg" alt="Ali A">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="name">Tage</div>
+      <div class="image-box">
+        <img src="tage.jpg" alt="Tage">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="name">Matvii</div>
+      <div class="image-box">
+        <img src="mativii.jpg" alt="Matvii">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="name">Talha</div>
+      <div class="image-box">
+        <img src="mativii.jpg" alt="Matvii">
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
